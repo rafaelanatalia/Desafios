@@ -1,0 +1,7 @@
+# Faça um programa em Python que abra e reproduza o audio de um arquivo mp3.
+
+from pygame import mixer
+mixer.init()
+mixer.music.load('Suas Linhas - Carol Biazin  (legendado).mp3')
+mixer.music.play()
+input('Agora você escuta?')
